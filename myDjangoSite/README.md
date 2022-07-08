@@ -1,15 +1,15 @@
 # Commands
-- run server
+- run server: 
 python manage.py runserver
 
-- create app
+- create app: 
 python manage.py startapp polls
 
-- migrate DB
+- migrate DB: 
 python manage.py migrate
-- migrate polls BD
+- migrate polls BD: 
 python manage.py makemigrations polls
-## he sqlmigrate command takes migration names and returns their SQL
+## sqlmigrate command takes migration names and returns their SQL
 - python manage.py sqlmigrate polls 0001
 
 ## making model changes
