@@ -66,14 +66,3 @@ Installation is done. Hurray!
 - to continue to run pyenv i had to run
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
-
-
-# install Django
-https://docs.djangoproject.com/en/4.0/intro/tutorial01/
-```pwsh
-python -m pip install Django
-- Create django project
-django-admin startproject mysite
-- to run the project
-python manage.py runserver
-```

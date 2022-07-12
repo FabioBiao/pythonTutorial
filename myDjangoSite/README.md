@@ -1,3 +1,13 @@
+# install Django
+https://docs.djangoproject.com/en/4.0/intro/tutorial01/
+```pwsh
+python -m pip install Django
+- Create django project
+django-admin startproject mysite
+- to run the project
+python manage.py runserver
+```
+
 # Commands
 - run server: 
 python manage.py runserver
