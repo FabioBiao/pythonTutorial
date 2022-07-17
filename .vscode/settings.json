@@ -7,5 +7,6 @@
             "database": "${workspaceFolder:django}/myDjangoSite/db.sqlite3"
         }
     ],
-    "sqltools.useNodeRuntime": true
+    "sqltools.useNodeRuntime": true,
+    "git.ignoreLimitWarning": true
 }

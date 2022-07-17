@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:5. Kanban_Board_FastAPI_React}/backend/db.sqlite3",
+            "name": "my local connection",
+            "group": "tests"
+        }
+    ]
+}
