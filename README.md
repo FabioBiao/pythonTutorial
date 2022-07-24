@@ -111,3 +111,16 @@ Installation is done. Hurray!
 - to continue to run pyenv i had to run
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
+
+
+# git commands
+- Setting your email address for every repository on your computer
+git config --global user.email "{ID}+{username}@users.noreply.github.com"
+
+- Revert your recent local commits (with your private email) which are getting failed to be pushed into repository.
+git reset --soft HEAD~1 
+
+- Stage and push those commits
+git add .
+git commit –m "<commit_message>"
+git push
