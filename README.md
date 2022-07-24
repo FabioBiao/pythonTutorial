@@ -22,7 +22,52 @@ py -m venv env
 .\env\Scripts\activate
 - leave virtual env
 deactivate
+- using virtualenv, to set specific python version
+virtualenv -p python3.9 env
+- install dependencies
+pip install -r requirements.txt
 
+# Create requirements
+```console
+pip3 freeze > requirements.txt  # Python3
+pip freeze > requirements.txt  # Python2
+```
+
+# anaconda
+
+```console
+# cheking anaconda version
+conda -V
+
+# update anaconda
+conda update conda
+
+# create envname   - Type conda search “^python$”  to see the list of available python versions.
+conda create -n envname python=x.x anaconda
+
+# activate conda environment
+conda activate envname
+
+# install package
+conda install -n yourenvname package
+
+# deactivate env
+conda deactivate
+
+# delete environment
+conda remove -n envname -all
+
+# allows conda on powershell
+conda init powershell 
+
+# deactivate auto on powershell
+conda config --set auto_activate_base false
+
+# install requirements
+conda install --file requirements.txt 
+
+# run conda project withs "python" so that it reads correct python version
+```
 
 
 
