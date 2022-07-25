@@ -19,6 +19,9 @@ virtualenv -p python3.9 env
 # install dependencies
 pip install -r requirements.txt
 
+# run fastAPI with hot reload
+uvicorn main:app --reload
+uvicorn main:app --reload --port 8001  
 ```
 
 # Create requirements
